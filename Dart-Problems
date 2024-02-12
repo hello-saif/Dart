@@ -1,9 +1,7 @@
-Problem Statement
-Write a program to convert temperature from Celsius to Fahrenheit.
+Problem Statement :Write a program to convert temperature from Celsius to Fahrenheit.
 
 Input
 The input consists of a float number.
-
 Output
 Output will be the Fahrenheit value.
 
@@ -26,3 +24,49 @@ void main()
     double Fahrenheit=(Calsius*9/5)+32;
     print("The temperature in Fahrenheit is: ${Fahrenheit.toStringAsFixed(2)}");
 }
+
+Problem Statement: Write a program that asks the user for their name and then prints a personalized greeting.
+
+Input
+The input consists of one line. A string representing the user's name.
+Output
+Output a single line containing the personalized greeting.
+
+Constraints
+User name should not be more than one string.
+Example:
+What is your name?
+
+Input:
+Alice
+Output:
+Hello, Alice! Nice to meet you.
+
+Answear:
+import 'dart:io';
+
+void main()
+{
+  String name = stdin.readLineSync()!;
+  print("Hello, $name! Nice to meet you."); 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
